@@ -13,7 +13,7 @@ class Auth with ChangeNotifier {
   DateTime? _expiryDate;
   String? _userId;
   Timer? _authTimer;
-  static const _apiKey = ""; //'AIzaSyB5t-2SXJrCeSPtw9L5fxEEI44iGya8Usc';
+  static const _apiKey = ""; 
   static const _signup = 'signUp';
   static const _login = 'signInWithPassword';
 
